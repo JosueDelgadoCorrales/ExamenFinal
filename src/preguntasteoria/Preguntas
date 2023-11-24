@@ -53,7 +53,10 @@ Proporciona un ejemplo de una función recursiva y discute cómo funciona,
  así como las precauciones que deben tomarse al utilizar la recursividad.
 
 
-R/
+R/Podriamos decir que es la manera de realizar un problema repetidas veces
+hasta irlo haciendo cada vez mas pequeño donde sea solucionable facilmente,
+por ejemplo a la hora de realizar una busqueda de un numero en una serie que 
+sin importar las caracteristicas
 
 
 
