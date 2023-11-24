@@ -7,7 +7,12 @@ Lista de Preguntas Seleccione 4 de ellas unicamente.
 Proporcione un ejemplo práctico de una clase que hereda de otra, 
 y explica la relación entre la clase padre e hija.
 
-R/
+R/ La herencia en java el uso de atributos de una clase hija de su madre, es decir
+una clase puede heredar y pasar a utilizar atributos que no son directamente suyos 
+ni estan estan definidos en su clase. Esta se implemtena mediante el uso de Extend
+que extiende los atributos de una super clase que se le conoce como la clase madre.
+La relacion entre ambas clases es directa, pero la que accede a los atributos de la
+clase madre es la hija y esto no puede ser viceversa.
 
 
 
@@ -16,7 +21,9 @@ R/
 Proporcione un ejemplo concreto utilizando métodos y explique cómo 
 el polimorfismo facilita el diseño de programas flexibles y extensibles.
 
-R/
+R/Podriamos decir que es la manera que nos permite programar en java con una
+variedad amplia de objetos y ademas nos abre a la posibilidad de realizar distintas
+tareas o metodos bajo el mismo nombre pero con diferente funcion
 
 
 
@@ -24,7 +31,7 @@ R/
 Proporciona un ejemplo de una clase abstracta y explica cómo se diferencia
  de una clase regular.
 
-R/
+R/ 
 
 
 
@@ -33,7 +40,11 @@ R/
 Menciona la importancia de manejar excepciones en este contexto.
 
 
-R/
+R/ En java se pueden leer y escribir archivos mediante la utilizacion de 
+la libreria java file que permite la importacion de ficheros y su utilizacion
+para tanto la edicion como la creacion de archivos mediante java, ademas es muy
+importante el manejo para evitar errores que puedan cerrar y llegar a corromper 
+el archivo.
 
 
 
@@ -50,6 +61,10 @@ R/
 Explica cómo Java aborda la liberación de memoria.
 
 
-R/
+R/Para gestionar dinamicamente la memoria en java es necesario conocer 
+que la memoria en java puede no estar definida totalmente en tiempo de ejecucion
+de un programa ya que no se sabe la cantidad de archivos, atributos o variables
+que se deben utilizar. Por lo que como su nombre dice esta comienza a utilizar
+la memoria conforme va necesitando, por eso el termino de dinamica
 
 
